@@ -93,6 +93,6 @@ MIT License
 
 ## 📫 Contact
 
-**Mario Ohashi**  
-Email: mario.ohashi@gmail.com  
+**Mario Ohashi**
+https://www.linkedin.com/in/marioohashi
 Curitiba, Brazil
