@@ -1,15 +1,17 @@
-import Button from './components/button';
+import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
+import { BrowserRouter } from 'react-router-dom';
+import { AppRoutes } from './routes/AppRoutes';
+
+const queryClient = new QueryClient();
 
 export function App() {
   return (
-    <div className="App">
-      <h1>Responsible Pet Adoption Platform</h1>
-      <h2>Find Your Furry Friend</h2>
-      
-      <>
-        <Button /> 
-        <Button />
-      </>
-    </div>
-  )
-} 
+    <QueryClientProvider client={queryClient}>
+      <BrowserRouter>
+        <AppRoutes />
+      </BrowserRouter>
+    </QueryClientProvider>
+  );
+}
+
+export default App;
