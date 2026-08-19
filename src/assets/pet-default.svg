@@ -1,0 +1,54 @@
+<svg
+  width="200"
+  height="200"
+  viewBox="0 0 200 200"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <!-- Fundo -->
+  <rect width="200" height="200" rx="24" fill="#F3F4F6" />
+
+  <!-- Corpo -->
+  <circle cx="100" cy="120" r="46" fill="#FFE4C4" />
+
+  <!-- Cabeça -->
+  <circle cx="100" cy="80" r="34" fill="#FFE4C4" />
+
+  <!-- Orelha esquerda -->
+  <path
+    d="M70 60 C55 40 55 25 70 30 C80 33 82 50 78 62 Z"
+    fill="#D1B38C"
+  />
+
+  <!-- Orelha direita -->
+  <path
+    d="M130 60 C145 40 145 25 130 30 C120 33 118 50 122 62 Z"
+    fill="#D1B38C"
+  />
+
+  <!-- Manchas no rosto -->
+  <circle cx="86" cy="78" r="12" fill="#D1B38C" />
+  <circle cx="116" cy="78" r="10" fill="#D1B38C" />
+
+  <!-- Olhos -->
+  <circle cx="90" cy="78" r="4" fill="#111827" />
+  <circle cx="110" cy="78" r="4" fill="#111827" />
+
+  <!-- Focinho -->
+  <circle cx="100" cy="88" r="5" fill="#111827" />
+
+  <!-- Boca -->
+  <path
+    d="M92 96 Q100 104 108 96"
+    stroke="#111827"
+    stroke-width="2"
+    fill="none"
+    stroke-linecap="round"
+  />
+
+  <!-- Patas dianteiras -->
+  <rect x="78" y="140" width="16" height="26" rx="6" fill="#FFE4C4" />
+  <rect x="106" y="140" width="16" height="26" rx="6" fill="#FFE4C4" />
+
+  <!-- Detalhe de sombra -->
+  <ellipse cx="100" cy="172" rx="40" ry="8" fill="#E5E7EB" />
+</svg>

@@ -1,7 +1,8 @@
 // src/components/PetListCard.tsx
 import { useState } from "react";
+import type {Pet} from "../types"
 
-export function PetListCard({ pet }) {
+export function PetListCard({ pet }: { pet: Pet }) {
   const [open, setOpen] = useState(false);
 
   return (
@@ -12,7 +13,7 @@ export function PetListCard({ pet }) {
         className="cursor-pointer border rounded-xl shadow-md bg-white hover:shadow-lg transition p-4"
       >
         <img
-          src={pet.photo}
+          src={pet.photo || "/imagens/pet-default.jpg"}
           alt={pet.name}
           className="w-full h-48 object-cover rounded-lg mb-3"
         />
@@ -39,7 +40,7 @@ export function PetListCard({ pet }) {
             </button>
 
             <img
-              src={pet.photo}
+              src={pet.photo || "/imagens/pet-default.jpg"}
               alt={pet.name}
               className="w-full h-64 object-cover rounded-lg mb-4"
             />
